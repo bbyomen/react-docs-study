@@ -131,6 +131,7 @@ table {
 .nav-links {
   display: flex;
   gap: 8px;
+  margin-bottom: 16px;
 }
 
 .Toolbar {
@@ -164,4 +165,73 @@ table {
 
 .test-case p {
   padding: 4px;
+}
+
+.counter {
+  width: 100px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.fancy {
+  border: 5px solid gold;
+  color: #ff6767;
+}
+
+.hover {
+  background: #ffffd8;
+}
+
+label {
+  display: block;
+  clear: both;
+}
+
+.chat,
+.contact-list {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.contact-list ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact-list li button {
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.chat textarea {
+  height: 150px;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: fit-content;
+}
+
+.week4-contacts {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reducer-counter {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }

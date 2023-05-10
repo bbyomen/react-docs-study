@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Layout from "../Components/Layout";
+import Layout from "./Layout";
 import Event1 from "./pages/Event1";
 import Event2 from "./pages/Event2";
 import Event3 from "./pages/Event3";
