@@ -26,7 +26,7 @@ export default function Challenge1() {
       </label>
       <ul className="week4-contacts">
         {displayedContacts.map((contact, i) => (
-          <li key={i} className="contact-item">
+          <li key={contact.id} className="contact-item">
             <Contact contact={contact} />
           </li>
         ))}
